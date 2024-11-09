@@ -96,7 +96,7 @@ services:
       POSTGRES_DB: car_sale_db
       PGDATA: /data/postgres
     volumes:
-      - postgres:/data/postgres
+      - ~/volumes/postgres:/data/postgres
     ports:
       - "5432:5432"
     networks:
@@ -110,7 +110,7 @@ services:
       PGADMIN_DEFAULT_EMAIL: h.naimaei@gmail.com
       PGADMIN_DEFAULT_PASSWORD: 123456
     volumes:
-      - pgadmin:/var/lib/pgadmin
+      - ~/volumes/pgadmin:/var/lib/pgadmin
     ports:
       - "8090:80"
     networks:

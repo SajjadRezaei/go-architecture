@@ -1,6 +1,6 @@
 module github.com/SajjadRezaei/go-clean-architecture
 
-go 1.21
+go 1.22
 
 require (
 	github.com/didip/tollbooth v4.0.2+incompatible
